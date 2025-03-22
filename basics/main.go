@@ -116,4 +116,68 @@ func main() {
 		fmt.Println("you are bad")
 	}
 
+	//Learn loop in go
+
+	var counter int = 10
+	for i := 0; i <= counter; i++ {
+		fmt.Println(i)
+	}
+
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
+	for counter < 20 {
+		fmt.Println(counter)
+		counter++
+	}
+
+	// invfinte for loopg in golang
+	var counter2 int = 0
+	for {
+		fmt.Println("infinite loop", counter2)
+		if counter2 > 20 {
+			break
+		}
+		counter2++
+	}
+
+	var counter4 int = 10
+	for p := 0; p <= counter4; p++ {
+		fmt.Println("i am p", p)
+		if p == 5 {
+			fmt.Println("i will exit now", p)
+			break
+		}
+
+	}
+	// format specifier in go lang
+	var lax string
+	name = "ichirag"
+	fmt.Printf("Hello %s\n", lax)
+
+	var point int = 10
+	fmt.Println("point is %d\n", point)
+
+	var pi float32 = 3.14
+	pi = 3.14
+	fmt.Println("pi is %f\n", pi)
+
+	// take input from user
+
+	fmt.Println("enter username")
+	var username string
+	fmt.Scan(&username)
+
+	// take input from user
+	fmt.Println("enter password")
+	var password2 string
+	fmt.Scan(&password2)
+
+	// print the input
+	fmt.Println("username is ", username)
+	fmt.Println("password is ", password2)
+
+	// use bufio paclage to accept input from user
+
 }
