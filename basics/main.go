@@ -91,4 +91,29 @@ func main() {
 	age = "123"
 	fmt.Println(name, age)
 
+	// if else in go
+	var marks int = 80
+	if marks > 60 {
+		if marks > 70 {
+			fmt.Println("you are good")
+			if marks > 70 && marks < 80 {
+				fmt.Println("you are very good")
+			}
+			if marks > 80 {
+				fmt.Println("you are excellent")
+			}
+			if marks > 90 {
+				fmt.Println("you are master")
+			}
+			fmt.Println("you are good 2")
+
+		}
+		fmt.Println("you are first class")
+	} else {
+		if marks > 50 {
+			fmt.Println("you are average")
+		}
+		fmt.Println("you are bad")
+	}
+
 }
