@@ -1,0 +1,23 @@
+"name" :
+  "golang01"
+
+
+# list in yaml
+
+- apple
+- banana
+- orange
+
+#block style in yaml
+
+  cities:
+    - name: Bangalore
+      country: India
+    - name: Chennai
+      country: India
+    - name: Delhi
+      country: India
+    - name: Mumbai
+      country: India
+    - name: Hyderabad
+      country: India

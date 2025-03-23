@@ -151,6 +151,21 @@ func main() {
 		}
 
 	}
+
+	// loop over a string
+	prousername := "Hello, chirag"
+	for index, char := range prousername {
+		fmt.Printf("Index: %d, Char: %c\n", index, char)
+	}
+
+	username3 := "Hello, Peerlist"
+
+	for index, eachChar := range username3 {
+
+		fmt.Printf("Index Is: %d, Char: %c\n", index, eachChar)
+
+	}
+
 	// format specifier in go lang
 	var lax string
 	name = "ichirag"
